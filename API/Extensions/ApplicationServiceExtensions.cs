@@ -25,6 +25,7 @@ namespace API.Extensions
                 });
             });
             
+            
             services.AddMediatR(typeof(List.Handler));
             services.AddAutoMapper(typeof(MappingProfiles).Assembly);
 
